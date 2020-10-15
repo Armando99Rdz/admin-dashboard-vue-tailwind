@@ -25,14 +25,14 @@
 
               <!-- right navbar -->
               <div class="flex items-center relative">
-                <a href="/" class="p-1 mr-4 rounded-full text-gray-700 hover:bg-purple-100 hover:text-purple duration-150">
+                <button class="p-1 mr-4 rounded-full text-gray-700 hover:bg-purple-100 hover:text-purple duration-150 focus:outline-none">
                   <div class="flex leading-3 px-0">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" class="fill-current"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"/></svg>
                     <div class="h-2 w-2 rounded-full bg-pink z-10 -ml-1"></div>
                   </div>
-                </a>
+                </button>
                 <button class="p-0 focus:outline-none duration-150" @click="dropDownOpen = !dropDownOpen">
-                  <img src="https://images.unsplash.com/photo-1599240210986-7e4a0ccd5562?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" class="w-10 h-10 rounded-full shadow-lg border-2 border-white hover:border-purple-600 duration-150">
+                  <img src="https://images.unsplash.com/photo-1552774021-9ebbb764f03e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" class="w-10 h-10 rounded-full shadow-lg border-2 border-white hover:border-purple-600 duration-150">
                 </button>
               </div>
 
