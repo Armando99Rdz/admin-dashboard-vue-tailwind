@@ -9,7 +9,7 @@
     --gray-hover: #e4e7eb;
     --pink: #d62468;
     --purple: #7e3af2;
-    --purple-light: #9061f9;
+    --purple-light: #8751fa;
     --orange: #ff5a1f;
     --green: #32c48c;
 }
@@ -70,6 +70,15 @@ body::-webkit-scrollbar {
 }
 .text-purple-light {
     color: var(--purple-light);
+}
+.hover\:text-purple:hover {
+    color: var(--purple);
+}
+.hover\:bg-purple:hover {
+    background-color: var(--purple);
+}
+.hover\:bg-purple-light:hover{
+    background-color: var(--purple-light);
 }
 
 .bg-orange {
