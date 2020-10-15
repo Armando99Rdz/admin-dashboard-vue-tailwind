@@ -399,14 +399,14 @@ export default {
                 data: {
                     labels : ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],
                     datasets:[{
-                        backgroundColor : "rgba(99,179,237,0.4)",
+                        backgroundColor : "rgba(70,20,237,0.4)",
                         strokeColor : "#63b3ed",
                         pointColor : "#fff",
                         pointStrokeColor : "#63b3ed",
                         data : [203,156,99,251,305,247,256]
                     },
                     {
-                        backgroundColor : "rgba(198,198,198,0.4)",
+                        backgroundColor : "rgba(60,60,248,0.4)",
                         strokeColor : "#f7fafc",
                         pointColor : "#fff",
                         pointStrokeColor : "#f7fafc",
@@ -439,7 +439,7 @@ export default {
                 data: {
                     labels : ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],
                     datasets:[{
-                        backgroundColor : "rgba(99,179,237,0.4)",
+                        backgroundColor : "rgba(40,100,255,0.8)",
                         strokeColor : "#63b3ed",
                         pointColor : "#fff",
                         pointStrokeColor : "#63b3ed",
