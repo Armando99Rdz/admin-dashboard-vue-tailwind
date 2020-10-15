@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --gray:  #f4f5f7;
+    --gray-hover: #e4e7eb;
+    --pink: #d62468;
+    --purple: #7e3af2;
+    --purple-light: #9061f9;
+    --orange: #ff5a1f;
+    --green: #32c48c;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.overlay {
+    position: relative; 
+}
+
+/* 1024 -1 so it doesnt show when it hits 1024px */
+@media only screen and (max-width: 1023px) {
+    .overlay:after {
+        content: " ";
+        z-index: 29;
+        display: block;
+        height: 100%;
+        top: 80px;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.5);
+        pointer-events: none;
+        position: fixed;
+    }
+}
+
+.bg-gray-25 {
+    background-color: var(--gray);
+}
+.bg-gray-30 {
+    background-color: var(--gray-hover);
+}
+.hover\:bg-gray-30:hover {
+    background-color: var(--gray-hover);
+}
+
+.bg-pink {
+    background-color: var(--pink);
+}
+.text-pink {
+    color: var(--pink);
+}
+
+.bg-purple {
+    background-color: var(--purple);
+}
+.text-purple {
+    color: var(--purple);
+}
+.bg-purple-light {
+    background-color: var(--purple-light);
+}
+.text-purple-light {
+    color: var(--purple-light);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+.text-orange {
+    color: var(--orange);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+.text-green {
+    color: var(--green);
+}
